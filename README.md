@@ -1,5 +1,4 @@
 # Blockchain_Wallet
-# Multi-Blockchain Wallet in Python
 
 ![newtons-coin-cradle](Images/newtons-coin-cradle.jpg)
 
@@ -158,9 +157,9 @@ Create 3 more funtions:
 
 ***BTCTEST Transaction***
     
-    `btc_acc = priv_key_to_account(BTCTEST,btc_PrivateKey)`
-    `create_tx(BTCTEST,btc_acc,"n3D8vVvLyD7pPQmWoQgMMERZrDjmBheBpU", 0.1)`
-    `send_txn(BTCTEST,btc_acc,"mtK73sNPY9CKuzVvpv4W1969AD1UmGGfsX", 0.1)`
+    `btc_test_acc = priv_key_to_account(BTCTEST,btc_test_PrivateKey)`
+    `create_tx(BTCTEST,btc_test_acc,"n1u1MQ11bBZvj6JzjzJKxiT5PgCsfc3ZiQ", 0.01)`
+    `send_txn(BTCTEST,btc_test_acc,"n1u1MQ11bBZvj6JzjzJKxiT5PgCsfc3ZiQ", 0.01)`
 
     Confirmation on executed transaction
 
@@ -178,16 +177,15 @@ Create 3 more funtions:
    `from web3.middleware import geth_poa_middleware
     w3.middleware_onion.inject(geth_poa_middleware, layer=0)`
 
-- Connect to HTTP with address private key & check the balance of the account
-    `w3 = Web3(Web3.HTTPProvider("http://127.0.0.1:8545/0x30c2577db89760baa9ba4058b1033b9e103f287e5de1689e35833ee8e7a7c857"))`
-    `w3.eth.getBalance("0x46BbdBf56ff911A93AdaF0164d0709F78B52765E")`
-
+- Connect to HTTP with address private key
+    `w3 = Web3(Web3.HTTPProvider("http://127.0.0.1:8545"))`
+    
 - Due to a bug in `web3.py`, send a transaction or two with MyCrypto first, since the
   `w3.eth.generateGasPrice()` function does not work with an empty chain. Use one of the `ETH` address `privkey`,
   or one of the `node` keystore files.
     
 - Send a transaction from the pre-funded address within the wallet to another, then get the `TxStatus` from MyCrypto
     `
-![eth-test](Images/eth-test.png)
+![eth-transaction](images/transaction-status.png)
 
 
