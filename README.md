@@ -135,11 +135,11 @@ Create 3 more funtions:
 - Use a [block explorer](https://tbtc.bitaps.com/) to watch transactions on the address.
 
 ***BTCTEST Transaction***
-    
-    `btc_test_acc = priv_key_to_account(BTCTEST,btc_test_PrivateKey)`
-    `create_tx(BTCTEST,btc_test_acc,"n1u1MQ11bBZvj6JzjzJKxiT5PgCsfc3ZiQ", 0.01)`
-    `send_txn(BTCTEST,btc_test_acc,"n1u1MQ11bBZvj6JzjzJKxiT5PgCsfc3ZiQ", 0.01)`
 
+    btc_test_acc = priv_key_to_account(BTCTEST,btc_test_PrivateKey)
+    create_tx(BTCTEST,btc_test_acc,"n1u1MQ11bBZvj6JzjzJKxiT5PgCsfc3ZiQ", 0.01)
+    send_txn(BTCTEST,btc_test_acc,"n1u1MQ11bBZvj6JzjzJKxiT5PgCsfc3ZiQ", 0.01)
+    
     Confirmation on executed transaction
 
 ![btc-test](images/BTCTEST_Transaction.png)
