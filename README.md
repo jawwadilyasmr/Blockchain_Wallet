@@ -91,7 +91,7 @@ Directory tree for `hd-wallet-derive`
 - Create an object called `coins` that derives `ETH` and `BTCTEST` wallets with this function.
   When done properly, the final object should look something like this (there are only 3 children each in this image):
 
-![wallet-object](Images/wallet-object.gif)
+![wallet-object](images/jasonPrint.png)
 
 Test the `coins` by calling `coins[COINTYPE][INDEX]['privkey']`.
 
@@ -164,7 +164,7 @@ Create 3 more funtions:
 
     Confirmation on executed transaction
 
-![btc-test](Images/btc-test.png)
+![btc-test](images/BTCTEST_Transaction.png)
 
 ***ETH Transaction - Local PoA***
 
