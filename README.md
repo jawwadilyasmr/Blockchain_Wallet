@@ -1,10 +1,6 @@
 # Blockchain_Wallet
 
-![newtons-coin-cradle](Images/newtons-coin-cradle.jpg)
-
-## Multiwallet - Step by Step Guide
----
-#### Initial Requirements - New Startup
+#### New Startup
 
 Main Focus of a newly startup company is to build a portfolio management system (PMS) that supports both, traditional assets (gold, silver, stocks, etc.) and currently very hot topic - crypto-assets!! But as there are many coins, our task is to understand how HD wallets work, and to build a system that can create them.
 
