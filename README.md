@@ -41,10 +41,7 @@ Directory tree for `hd-wallet-derive`
 
 ![directory-tree](images/directory-tree.png)
     
-
-
-<details>
-    <summary>Setup constants</summary>
+### Setup constants
 
 - In a separate file, `constants.py`, set the following constants:
   - `BTC = 'btc'`
@@ -54,20 +51,15 @@ Directory tree for `hd-wallet-derive`
 - In `wallet.py`, import all constants: `from constants import *`
 
 - Use these anytime to reference these strings, both in function calls, and in setting object keys.
-</details>
 
-<details>
-    <summary>Generate a Mnemonic</summary>
+### Generate a Mnemonic
 
 - Generate a new 12 word mnemonic using `hd-wallet-derive` or by using [this tool](https://iancoleman.io/bip39/).
 
 - Set this mnemonic as an environment variable, and include the one generated as a fallback using:
   `mnemonic = os.getenv('MNEMONIC', 'insert mnemonic here')`
 
-</details>
-
-<details>
-    <summary>Deriving the wallet keys</summary>
+### Deriving the wallet keys
 
 - Use the `subprocess` library to call the `./derive` script from Python. Make sure to properly wait for the process.
 
@@ -87,10 +79,7 @@ Directory tree for `hd-wallet-derive`
 
 Test the `coins` by calling `coins[COINTYPE][INDEX]['privkey']`.
 
-</details>
-
-<details>
-    <summary>Linking the transaction signing libraries</summary>
+### Linking the transaction signing libraries
 
 Use `bit` and `web3.py` to leverage the keys obtained in the `coins` object.
 Create 3 more funtions:
@@ -137,10 +126,7 @@ Create 3 more funtions:
   - For `ETH`, return `w3.eth.sendRawTransaction(signed.rawTransaction)`
   - For `BTCTEST`, return `NetworkAPI.broadcast_tx_testnet(signed)`
     
-</details>
-
-<details>
-    <summary>Execute the transactions</summary>
+### Execute the transactions
     
 ***Bitcoin Testnet transaction***
 
