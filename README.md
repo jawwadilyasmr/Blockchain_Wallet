@@ -1,5 +1,4 @@
 # Blockchain_Wallet
-# Multi-Blockchain Wallet in Python
 
 ![newtons-coin-cradle](Images/newtons-coin-cradle.jpg)
 
@@ -188,6 +187,6 @@ Create 3 more funtions:
     
 - Send a transaction from the pre-funded address within the wallet to another, then get the `TxStatus` from MyCrypto
     `
-![eth-test](Images/eth-test.png)
+![eth-transaction](images/transaction-status.png)
 
 
