@@ -47,7 +47,7 @@ Once the integration is done with this "universal" wallet, one can manage billio
 
 Directory tree for `hd-wallet-derive`
 
-![directory-tree](Images/tree.png)
+![directory-tree](images/directory-tree.png)
     
 </details>
 
