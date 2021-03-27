@@ -4,8 +4,6 @@
 
 Main Focus of a newly startup company is to build a portfolio management system (PMS) that supports both, traditional assets (gold, silver, stocks, etc.) and currently very hot topic - crypto-assets!! But as there are many coins, our task is to understand how HD wallets work, and to build a system that can create them.
 
-#### Race to capture the market
-
 `hd-wallet-derive` - A command line tool that supports BIP32, BIP39 and BIP44 and also supports non-standard derivation paths for the most popular wallets. Unfortunately, there arent many tools available in `python` and we need to integrate the script in backend with `python`.
 
 Once the integration is done with this "universal" wallet, one can manage billions of addresses across 300+ coins, giving a serious edge against the competition.
@@ -21,8 +19,7 @@ Once the integration is done with this "universal" wallet, one can manage billio
 - [`web3.py`](https://github.com/ethereum/web3.py) Python Ethereum library.
 
 ## Instructions
-<details>
-    <summary>Project setup</summary>
+### Project setup
 
 - Create a project directory called `wallet` and `cd` into it.
 
@@ -44,7 +41,7 @@ Directory tree for `hd-wallet-derive`
 
 ![directory-tree](images/directory-tree.png)
     
-</details>
+
 
 <details>
     <summary>Setup constants</summary>
