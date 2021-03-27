@@ -33,8 +33,6 @@ Once the integration is done with this "universal" wallet, one can manage billio
 
 - Test run the `./derive` script properly, use one of the examples on the repo's `README.md`
 
-  *Note*: If one gets an error running `./derive`, as it happens in Windows machine then use: `./hd-wallet-derive/hd-wallet-derive.php.exe`
-
 - Create a file called `wallet.py` -- universal wallet script.
 
 Directory tree for `hd-wallet-derive`
