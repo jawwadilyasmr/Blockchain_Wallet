@@ -1,7 +1,5 @@
 # Blockchain_Wallet
 
-#### New Startup
-
 Main Focus of a newly startup company is to build a portfolio management system (PMS) that supports both, traditional assets (gold, silver, stocks, etc.) and crypto-assets. Our task is to understand how HD wallets work, and to build a system that can create them.
 
 `hd-wallet-derive` - A command line tool that supports BIP32, BIP39 and BIP44 and also supports non-standard derivation paths for the most popular wallets. Our job is to build a tool in `python` that can integrate the script into the backend.
