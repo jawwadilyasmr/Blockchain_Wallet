@@ -2,11 +2,11 @@
 
 #### New Startup
 
-Main Focus of a newly startup company is to build a portfolio management system (PMS) that supports both, traditional assets (gold, silver, stocks, etc.) and currently very hot topic - crypto-assets!! But as there are many coins, our task is to understand how HD wallets work, and to build a system that can create them.
+Main Focus of a newly startup company is to build a portfolio management system (PMS) that supports both, traditional assets (gold, silver, stocks, etc.) and crypto-assets. Our task is to understand how HD wallets work, and to build a system that can create them.
 
-`hd-wallet-derive` - A command line tool that supports BIP32, BIP39 and BIP44 and also supports non-standard derivation paths for the most popular wallets. Unfortunately, there arent many tools available in `python` and we need to integrate the script in backend with `python`.
+`hd-wallet-derive` - A command line tool that supports BIP32, BIP39 and BIP44 and also supports non-standard derivation paths for the most popular wallets. Our job is to build a tool in `python` that can integrate the script into the backend.
 
-Once the integration is done with this "universal" wallet, one can manage billions of addresses across 300+ coins, giving a serious edge against the competition.
+Once the integration is connected, this wallet can manage billions of addresses across 300+ coins.
 
 ## Dependencies
 
